@@ -1,4 +1,23 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+*{
+  outline:1px solid red;
 }
+.nav-item .logo{
+  width:53px;
+  height:53px;
+}
+
+.nav-item button{
+  width:51px;
+  height:51px;
+  background-color: $primary;
+}
+
+.nav-item .submit{
+  color:#fff;
+}
+
+
+
+
+
+
