@@ -1,21 +1,39 @@
-<ul class="nav container">
-    <div class="row">
-    <li class="nav-item d-flex col-6 mt-7">
-        <img src="../assets/images/logo.png" alt="sparkle" class="logo me-5">
-        <a href="../pages/index.html" class="fs-5 text-nowrap d-flex">7TAO<span class="fs-6 mt-5 ms-1 mb-2 me-11">活動訂票網</span></a>
-        <input type="text" placeholder="探索活動" class="search">
-        <button type="submit" class="submit px-5"><i class="bi bi-search"></i></button>
-    </li>
+<div class="container-fluid fixed-top">
+  <ul class="row  ps-lg-13 px-3">
+  <li class="nav-item d-flex col-lg-6 col-10 mt-lg-7 mt-3">
+    <a href="../pages/index.html" class="text-nowrap d-flex">
+      <img src="../assets/images/logo.png" alt="sparkle" class="logo me-5 d-lg-block">
+      <span class="fs-5 d-lg-flex d-md-none d-sm-none d-none">7TAO<span class="fs-6 mt-5 ms-1 mb-2 me-11">活動訂票網</span></span></a>
+      <input type="text" placeholder="探索活動" class="search">
+      <button type="submit" class="submit"><i class="bi bi-search"></i></button>
+  </li>
+  <li class="nav-item dropdown col-lg-6 d-lg-none d-flex align-items-center justify-content-end mt-lg-7 mt-3 fixed-top">
    
-  
-    <li class="nav-item col-6 d-flex">
-      <a class="nav-link" href="#">
-        <i class="bi bi-file-earmark-richtext">REGISTER</i>
+
+    <a class="btn btn-secondary dropdown-toggle d-flex justify-content-center align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-list"></i>
     </a>
-      <a href="#" class="nav-link">
+  
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li>  <a class="dropdown-item" href="#">
+        <i class="bi bi-file-earmark-richtext">REGISTER</i>
+    </a></li>
+      <li><a href="#" class="dropdown-item">
         <i class="bi bi-person-fill">LOGIN</i>
-      </a>
-    </li>
-   
+      </a></li>
+      
+    </ul>
+
+  </li>
+  <li class="nav-item col-lg-6 d-lg-flex d-md-none d-sm-none d-none justify-content-end align-items-center mt-lg-7">
+    <a class="nav-link" href="#">
+      <i class="bi bi-file-earmark-richtext">REGISTER</i>
+  </a>
+    <a href="#" class="nav-link ps-7">
+      <i class="bi bi-person-fill">LOGIN</i>
+    </a>
+  </li>
+ 
+</ul>
 </div>
-  </ul>
+

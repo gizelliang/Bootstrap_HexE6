@@ -1,19 +1,40 @@
-*{
-  outline:1px solid red;
+.container-fluid{
+  border-bottom:3px solid #030303;
 }
 .nav-item .logo{
   width:53px;
   height:53px;
+
 }
 
-.nav-item button{
+.submit{
   width:51px;
   height:51px;
-  background-color: $primary;
+  background-color: #030303;
+  color:#fff;
+  
+  &:hover{
+    
+    color:#030303;
+    background-color: yellow;
+  }
 }
 
-.nav-item .submit{
-  color:#fff;
+.nav-link{
+  font-size:18px;
+}
+
+.dropdown-toggle{
+     background-color:$body-bg;
+     color:$primary;
+     border-radius: 4px;
+     display:block;
+     width:51px;
+     height:51px;
+    font-size: 30px;
+        &::after{
+  display: none;
+}
 }
 
 
