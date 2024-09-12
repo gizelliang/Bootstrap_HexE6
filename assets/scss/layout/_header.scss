@@ -5,14 +5,19 @@ header{
 .navbar-brand img{
     max-width:40px;
   }
-  @media (min-width: 992px) { 
-    .navbar-brand img{
+
+
+.input-group{
+  height:39px;
+
+}
+@media (min-width:992px){
+  .input-group{
+    height:55px;
+  }
+  .navbar-brand img{
     max-width:53px;
     }
-  }
-
-
-
-
+}
 
 
