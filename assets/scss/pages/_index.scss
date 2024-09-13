@@ -1,6 +1,12 @@
 .index-title {
   font-size: 100px;
 }
+.carousel-item{
+  height:350px;
+  @media (min-width:992px) {
+    height:518px;
+  }
+}
 .carousel-caption{
 
 h4{
