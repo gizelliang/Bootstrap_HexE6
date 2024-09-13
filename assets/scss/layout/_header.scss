@@ -1,7 +1,9 @@
 header{
   font-family: 'Yeseva One','Noto Serif TC';
 }
-
+body{
+  padding-top:80px;
+}
 .navbar-brand img{
     max-width:40px;
   }
@@ -18,6 +20,9 @@ header{
   .navbar-brand img{
     max-width:53px;
     }
+  body{
+    padding-top:135px;
+  }
 }
 
 

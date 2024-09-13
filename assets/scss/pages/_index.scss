@@ -1,3 +1,20 @@
 .index-title {
   font-size: 100px;
 }
+.carousel-caption{
+
+h4{
+  font-family: 'Noto Serif TC';
+}
+  p{
+    font-style:'Noto Sans TC';
+  }
+  span{
+    font-family:'Yeseva One';
+    font-size:$font-size-base*2;
+    @media (min-width:992px) {
+      font-size:60px;
+    }
+   
+  }
+}
