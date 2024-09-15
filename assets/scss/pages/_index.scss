@@ -14,7 +14,7 @@ h4{
   font-family: 'Noto Serif TC';
 }
   p{
-    font-style:'Noto Sans TC';
+    font-family:'Noto Sans TC';
   }
   span{
     font-family:'Yeseva One';
@@ -27,8 +27,16 @@ h4{
 }
 
 .button-banner-item{
-
-  height:196px;
+ 
+  height:112px;
  
   border:1px solid;
+  @media (min-width:992px) {
+    height:196px;
+  }
+}
+
+.text-banner{
+  font-family:'Yeseva One', 'Noto Serif TC';
+  .text-container {border:3px solid;}
 }
