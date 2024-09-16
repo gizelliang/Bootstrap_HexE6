@@ -65,3 +65,39 @@ h4{
  
  
 }
+
+.blog-area-title{
+  font-size:$font-size-base * 2;
+  @media(min-width:992px){
+    font-size:$font-size-base *3;
+  }
+}
+
+.blog-card-title{
+  font-size:$font-size-base * 1.125;
+  @media(min-width:992px){
+    font-size:$font-size-base *1.5;
+  }
+}
+
+.blog-card-bottom img{
+ width:20px;
+ height:20px;
+ @media(min-width:992px){
+  width:24px;
+  height:24px;
+}
+}
+.blog-card-bottom{
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
+.card-img-top{
+  height:210px;
+  
+  @media(min-width:992px){
+   
+    height:255px;
+  }
+}
