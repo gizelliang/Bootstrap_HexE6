@@ -11,7 +11,7 @@
     <%- include('./layout/header'); -%>
 <!--Banner Carousel-->
   <section class="index_banner mt-lg-8 mt-5" >
-   <div class="container-lg gx-lg-0 gx-3">
+   <div class="container-lg">
     <div class="row">
      
     <div id="carouselExampleFade" class="carousel slide carousel-fade col-12" data-bs-ride="carousel">
@@ -62,64 +62,78 @@
   </section>
 
 <!--中間橫列跨兩欄向上移動的按鈕列-->
-<section class="button-banner mt-lg-11 mt-8">
-  <div class="container-lg bg-body overflow-hidden">
-    <div class="row g-2 g-lg-4">
-      <div class=" col-lg-2 col-4 button-banner-item d-flex justify-content-center align-items-center">
-        <a href="#">
-          <img src="../assets/images/album/Group.png" alt="">
-          <p class="text-center">演出</p>
+<div class="button-banner">
+  <div class="container-lg bg-body mt-lg-11 mt-8">
+    <div class="row row-cols-lg-6 row-cols-3">
+     
+      <div class="col">
+        <a href="#" class="button-context border border-primary d-flex flex-column justify-content-center align-items-center">
+          <img src="../assets/images/album/Group.png"  alt="Group">
+          <p class="h4 fw-bold">演出</p>
+        
         </a>
       </div>
+      <div class="col">
+        <a href="#" class="button-context border border-primary  d-flex flex-column justify-content-center align-items-center">
+          <img src="../assets/images/album/heart (1) 1.png" alt="Heart">
+       
+          <p class="h4 fw-bold">聯誼</p>
+        
+        </a>
+      </div>
+      <div class="col">
+        <a href="" class="button-context border border-primary  d-flex flex-column justify-content-center align-items-center">
+          <img src="../assets/images/album/cutlery 1.png" alt="Cutlery">
+          
+          <p class="h4 fw-bold">展覽</p>
+       
+        </a>
+      </div>
+      <div class="col">
+        <a href="#" class="button-context border border-primary  d-flex flex-column justify-content-center align-items-center">
+          <img src="../assets/images/album/museum 1.png" alt="Museum">
+          
+            <p class="h4 fw-bold">美食</p>
+          
+        </a>
+      </div>
+      <div class="col">
+        <a href="" class="button-context border border-primary  d-flex flex-column justify-content-center align-items-center">
+          <img src="../assets/images/album/snowed-mountains 1.png" alt="Mountain">
+          
+          <p class="h4 fw-bold">戶外</p>
     
-      <div class="col-lg-2 col-4 button-banner-item  d-flex justify-content-center align-items-center">
-        <a href="">
-          <img src="../assets/images/album/heart (1) 1.png" alt="">
-          <p></p>
         </a>
       </div>
+     
+      <div class="col">
+        <a href="" class="button-text border border-primary bg-primary d-flex flex-column justify-content-center align-items-center">
     
+          
+          <p class="fs-3">探索</p>
+          <p class="fs-3">更多</p>
     
-      <div class="col-lg-2 col-4 button-banner-item d-flex justify-content-center align-items-center">
-        <a href="">
-          <img src="../assets/images/album/cutlery 1.png" alt="">
-          <p></p>
         </a>
       </div>
-    
-      <div class="col-lg-2 col-4 button-banner-item d-flex justify-content-center align-items-center">
-        <a href="">
-          <img src="../assets/images/album/museum 1.png" alt="">
-          <p></p>
-        </a>
+      
       </div>
-      <div class="col-lg-2 col-4 button-banner-item d-flex justify-content-center align-items-center">
-        <a href="">
-          <img src="../assets/images/album/snowed-mountains 1.png" alt="">
-          <p></p>
-        </a>
-      </div>
-      <div class="col-lg-2 col-4 button-banner-item d-flex justify-content-center align-items-center">
-        <a href="">
-         <p>探索</p>
-         <p>更多</p>
-        </a>
-      </div>
-    
     </div>
   </div>
-</section>
-
+</div>
+    
+    
 <!--Recent 近期活動-->
 
 <section class="text-banner mt-lg-11 mb-lg-8 mt-8 mb-7 mx-2">
   <div class="container-lg">
     <div class="border-3 row">
-      <div class="col-12 px-lg-8 border border-primary d-flex align-items-center justify-content-between">
-        <p class="fs-1">RECENT</p>
-        <p class="fs-5">近期活動</p>
+      <div class="col">
+        <div class="recent-text px-lg-8 border border-primary d-flex align-items-center justify-content-between">
+          <p class="fs-1">RECENT</p>
+          <p class="fs-5">近期活動</p>
+        </div>
+      </div>
     </div>
-  </div>
   </div>
 </section>
   

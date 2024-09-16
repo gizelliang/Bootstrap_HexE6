@@ -27,17 +27,21 @@ h4{
   }
 }
 
-.button-banner-item{
- 
-  height:112px;
- 
-  border:1px solid;
-  @media (min-width:992px) {
-    height:196px;
-  }
-}
 
 .text-banner{
   font-family:'Yeseva One', 'Noto Serif TC';
+  
+}
+
+.button-context,.button-text{
+  height:112px;
+  @media (min-width:992px) {
+  height:196px;
+  }
+  font-family: 'Noto Serif TC';
+}
+
+.button-text{
+  color:yellow;
   
 }
