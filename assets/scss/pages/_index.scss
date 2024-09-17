@@ -117,3 +117,13 @@ h4{
 .icon-text{
   font-family:'Noto Sans TC';
 }
+
+.body-bottom-area button{
+  border:1px solid black;
+  border-left:3px solid black;
+  &:hover{
+    color:white;
+    background-color:black;
+    border-left:3px solid yellow;
+  }
+}
