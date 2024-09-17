@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 .index-title {
   font-size: 100px;
 
@@ -70,6 +70,7 @@ h4{
 
 .blog-area-title{
   font-size:$font-size-base * 2;
+  font-family: 'Yeseva One';
   @media(min-width:992px){
     font-size:$font-size-base *3;
   }
@@ -77,9 +78,14 @@ h4{
 
 .blog-card-title{
   font-size:$font-size-base * 1.125;
+  font-family: 'Noto Serif TC';
   @media(min-width:992px){
     font-size:$font-size-base *1.5;
   }
+}
+
+.blog-card-text{
+  font-family:'Noto Sans TC';
 }
 
 .blog-card-bottom img{
