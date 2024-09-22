@@ -118,7 +118,37 @@ h4{
   font-family:'Noto Sans TC';
 }
 
-.body-bottom-area button{
+.bottom-wrap button{
+  border:1px solid black;
+  border-left:3px solid black;
+  &:hover{
+    color:white;
+    background-color:black;
+    border-left:3px solid yellow;
+  }
+}
+
+
+
+.online-ad .card{
+  outline:1px solid red;
+  height:503px;
+  @media(min-width:992px){
+   
+    height:317px;
+  }
+  
+}
+
+.card-img{
+  height:158px;
+
+  @media(min-width:992px){
+   
+    height:317px;
+  }
+}
+.card-button button{
   border:1px solid black;
   border-left:3px solid black;
   &:hover{
